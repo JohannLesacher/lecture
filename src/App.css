@@ -1,0 +1,44 @@
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.word {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.controls {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+.validate {
+  background-color: darkslategrey;
+}
+
+.pass {
+  background-color: dimgrey;
+}
+
+.header p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.score {
+  color: #fdffe0;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-left: 2rem;
+  text-shadow: 0 0 4px #ff13eb;
+}
